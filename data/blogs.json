@@ -1,37 +1,37 @@
 {
-    "codes": [
+    "blogs": [
         {
-            "title": "code 1",
+            "title": "blog 1",
             "image": "../images/code.jpg",
             "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet diam vitae odio sagittis vulputate. Duis in diam neque. Nam quam est, dictum et volutpat vitae, fermentum ut ipsum.",
             "link": "#"
         },
         {
-            "title": "code 2",
+            "title": "blog 2",
             "image": "../images/code.jpg",
             "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet diam vitae odio sagittis vulputate. Duis in diam neque. Nam quam est, dictum et volutpat vitae, fermentum ut ipsum.",
             "link": "#"
         },
         {
-            "title": "code 3",
+            "title": "blog 3",
             "image": "../images/code.jpg",
             "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet diam vitae odio sagittis vulputate. Duis in diam neque. Nam quam est, dictum et volutpat vitae, fermentum ut ipsum.",
             "link": "#"
         },
         {
-            "title": "code 4",
+            "title": "blog 4",
             "image": "../images/code.jpg",
             "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet diam vitae odio sagittis vulputate. Duis in diam neque. Nam quam est, dictum et volutpat vitae, fermentum ut ipsum.",
             "link": "#"
         },
         {
-            "title": "code 5",
+            "title": "blog 5",
             "image": "../images/code.jpg",
             "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet diam vitae odio sagittis vulputate. Duis in diam neque. Nam quam est, dictum et volutpat vitae, fermentum ut ipsum.",
             "link": "#"
         },
         {
-            "title": "code 6",
+            "title": "blog 6",
             "image": "../images/code.jpg",
             "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet diam vitae odio sagittis vulputate. Duis in diam neque. Nam quam est, dictum et volutpat vitae, fermentum ut ipsum.",
             "link": "#"

@@ -2,27 +2,23 @@ const elem = selector => {
   return document.querySelector(selector)
 }
 
-let data;
 $(function(){
-  $.getJSON('https://raw.githubusercontent.com/gayatri-p/coding-club/main/data/all.json',function(raw_data){
-      data = raw_data;
+  $.getJSON('https://raw.githubusercontent.com/gayatri-p/coding-club/main/data/projects.json',function(data){
       console.log('success');
+      $.each(data.projects, function(i,project){
+        console.log(project.name)
+        let figure = `<figure class="carousel-item">
+          <img src="${project.image}" class="carousel__image">
+          <figcaption class="carousel__caption">
+            <h3 class="carousel__title">${project.name}</h3>
+            <p class="carousel__subtitle"><a target="_blank" href="${project.website}">WEBSITE</a> | <a target="_blank" href="${project.source}">SOURCE CODE</a></p>
+          </figcaption>
+        </figure>`
+
+        $('.carousel-items').append(figure);
+      });
   }).error(function(){
-    console.log('error cant fetch json data');
-  });
-});
-
-$(function(){
-  $.each(data.projects, function(i,project){
-    let figure = `<figure class="carousel-item">
-      <img src="${project.image}" class="carousel__image">
-      <figcaption class="carousel__caption">
-        <h3 class="carousel__title">${project.name}</h3>
-        <p class="carousel__subtitle"><a target="_blank" href="${project.website}">WEBSITE</a> | <a target="_blank" href="${project.source}">SOURCE CODE</a></p>
-      </figcaption>
-    </figure>`
-
-    $('.carousel-items').append(figure);
+      console.log('error');
   });
 });
 
@@ -39,43 +35,58 @@ function getMemberDetails(member) {
         <a href="${member.github}"></a>
       </p>
   </figcaption>
-  </figure>`
-  return figure;
+</figure>`
+return figure;
 };
 
 $(function(){
-  $.each(data.current_members, function(i, member){
-    let figure = getMemberDetails(member)
-    $('.team-current').append(figure);
-  });
-  $.each(data.older_members, function(i, member){
-    let figure = getMemberDetails(member)
-    $('.team-alumni').append(figure);
-  });
-});
-
-$(function(){
-  $.each(data.blogs, function(i, blog){
-    let blog_item = `<div class="blog">
-      <img class="blog-image" src="${blog.image}" alt="">
-      <div class="blog-content">
-        <h3 class="blog-title">${blog.title}</h3>
-        <p class="blog-abstract">${blog.abstract}</p>
-      </div>
-      <a href="${blog.link}" class="blog-btn">Read More</a>
-    </div>`
-    $('.blogs').append(blog_item);
+  $.getJSON('https://raw.githubusercontent.com/gayatri-p/coding-club/main/data/members.json',function(data){
+      console.log('success');
+      $.each(data.current_members, function(i, member){
+        let figure = getMemberDetails(member)
+        $('.team-current').append(figure);
+      });
+      $.each(data.older_members, function(i, member){
+        let figure = getMemberDetails(member)
+        $('.team-alumni').append(figure);
+      });
+  }).error(function(){
+      console.log('error');
   });
 });
 
 $(function(){
-  $.each(data.news, function(i, news_item){
-    let article = `<div class="article">
-        <div class="article-date">${news_item.date}</div>
-        <div class="article-content">${news_item.content}</div>
-        <a href="${news_item.link}" class="article-btn">Know More</a>
-      </div>`
-    $('.articles').append(article);
+  $.getJSON('https://raw.githubusercontent.com/gayatri-p/coding-club/main/data/blogs.json',function(data){
+      console.log('success');
+      $.each(data.blogs, function(i, blog){
+        let blog_item = `<div class="blog">
+          <img class="blog-image" src="${blog.image}" alt="">
+          <div class="blog-content">
+            <h3 class="blog-title">${blog.title}</h3>
+            <p class="blog-abstract">${blog.abstract}</p>
+          </div>
+          <a href="${blog.link}" class="blog-btn">Read More</a>
+        </div>`
+        $('.blogs').append(blog_item);
+      });
+  }).error(function(){
+      console.log('error');
+  });
+});
+
+$(function(){
+  $.getJSON('https://raw.githubusercontent.com/gayatri-p/coding-club/main/data/news.json',function(data){
+      console.log('success');
+      $.each(data.news, function(i, news_item){
+        let article = `<div class="article">
+            <div class="article-date">${news_item.date}</div>
+            <div class="article-content">${news_item.content}</div>
+            <a href="${news_item.link}" class="article-btn">Know More</a>
+          </div>`
+        $('.articles').append(article);
+      });
+  }).error(function(){
+      console.log('error');
   });
 });
 
@@ -115,11 +126,6 @@ $(window).scroll(function () {
 
   if (wScroll > aboutOffset*1.2) {elem('#about .section__title').classList.add('is-showing');}
   if (wScroll > aboutOffset) {elem('#about .section__image').classList.add('is-showing');}
-  // if (wScroll > footerOffset) {
-  //   elem('footer .logo').classList.add('is-showing');
-  //   // console.log('shownmf')
-  // }
-  console.log(wScroll, footerOffset)
 
 })
 

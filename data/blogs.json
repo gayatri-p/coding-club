@@ -2,37 +2,37 @@
     "blogs": [
         {
             "title": "blog 1",
-            "image": "../images/code.jpg",
+            "image": "images/code.jpg",
             "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet diam vitae odio sagittis vulputate. Duis in diam neque. Nam quam est, dictum et volutpat vitae, fermentum ut ipsum.",
             "link": "#"
         },
         {
             "title": "blog 2",
-            "image": "../images/code.jpg",
+            "image": "images/code.jpg",
             "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet diam vitae odio sagittis vulputate. Duis in diam neque. Nam quam est, dictum et volutpat vitae, fermentum ut ipsum.",
             "link": "#"
         },
         {
             "title": "blog 3",
-            "image": "../images/code.jpg",
+            "image": "images/code.jpg",
             "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet diam vitae odio sagittis vulputate. Duis in diam neque. Nam quam est, dictum et volutpat vitae, fermentum ut ipsum.",
             "link": "#"
         },
         {
             "title": "blog 4",
-            "image": "../images/code.jpg",
+            "image": "images/code.jpg",
             "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet diam vitae odio sagittis vulputate. Duis in diam neque. Nam quam est, dictum et volutpat vitae, fermentum ut ipsum.",
             "link": "#"
         },
         {
             "title": "blog 5",
-            "image": "../images/code.jpg",
+            "image": "images/code.jpg",
             "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet diam vitae odio sagittis vulputate. Duis in diam neque. Nam quam est, dictum et volutpat vitae, fermentum ut ipsum.",
             "link": "#"
         },
         {
             "title": "blog 6",
-            "image": "../images/code.jpg",
+            "image": "images/code.jpg",
             "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet diam vitae odio sagittis vulputate. Duis in diam neque. Nam quam est, dictum et volutpat vitae, fermentum ut ipsum.",
             "link": "#"
         }

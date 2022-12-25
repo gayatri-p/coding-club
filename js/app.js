@@ -2,8 +2,9 @@ const elem = selector => {
   return document.querySelector(selector)
 }
 
+// loading json
 $(function(){
-  $.getJSON('https://raw.githubusercontent.com/gayatri-p/coding-club/main/data/projects.json',function(data){
+  $.getJSON('https://gayatri-p.github.io/coding-club/data/projects.json',function(data){
       console.log('success');
       $.each(data.projects, function(i,project){
         console.log(project.name)
@@ -17,6 +18,31 @@ $(function(){
 
         $('.carousel-items').append(figure);
       });
+
+      let list = Object.values(document.querySelectorAll('.carousel-item'))
+      console.log(list)
+      let translate, caption, spotlight;
+      let length = list.length
+      let middleTerm = Math.ceil((length-1) / 2)
+      let spotlightIndex = middleTerm
+      left.addEventListener('click', _ => {
+        spotlightIndex = (spotlightIndex == 0) ? (list.length - 1) : (spotlightIndex - 1);
+        spotlight = list[spotlightIndex]
+        caption = spotlight.querySelector('figcaption')
+        translate = (middleTerm-spotlightIndex)*100;
+        Object.keys(list).forEach(function(key) {
+          list[key].style.transform = 'translateX(' + translate + '%)';
+        })
+      })
+      right.addEventListener('click',  _ => {
+        spotlightIndex = (spotlightIndex == (list.length - 1)) ? 0 : (spotlightIndex + 1);
+        spotlight = list[spotlightIndex]
+        caption = spotlight.querySelector('figcaption')
+        translate = (middleTerm-spotlightIndex)*100;
+        Object.keys(list).forEach(function(key) {
+          list[key].style.transform = 'translateX(' + translate + '%)';
+        })
+      })
   }).error(function(){
       console.log('error');
   });
@@ -40,7 +66,7 @@ return figure;
 };
 
 $(function(){
-  $.getJSON('https://raw.githubusercontent.com/gayatri-p/coding-club/main/data/members.json',function(data){
+  $.getJSON('https://gayatri-p.github.io/coding-club/data/members.json',function(data){
       console.log('success');
       $.each(data.current_members, function(i, member){
         let figure = getMemberDetails(member)
@@ -56,7 +82,7 @@ $(function(){
 });
 
 $(function(){
-  $.getJSON('https://raw.githubusercontent.com/gayatri-p/coding-club/main/data/blogs.json',function(data){
+  $.getJSON('https://gayatri-p.github.io/coding-club/data/blogs.json',function(data){
       console.log('success');
       $.each(data.blogs, function(i, blog){
         let blog_item = `<div class="blog">
@@ -75,7 +101,7 @@ $(function(){
 });
 
 $(function(){
-  $.getJSON('https://raw.githubusercontent.com/gayatri-p/coding-club/main/data/news.json',function(data){
+  $.getJSON('https://gayatri-p.github.io/coding-club/data/news.json',function(data){
       console.log('success');
       $.each(data.news, function(i, news_item){
         let article = `<div class="article">
@@ -126,6 +152,11 @@ $(window).scroll(function () {
 
   if (wScroll > aboutOffset*1.2) {elem('#about .section__title').classList.add('is-showing');}
   if (wScroll > aboutOffset) {elem('#about .section__image').classList.add('is-showing');}
+  // if (wScroll > footerOffset) {
+  //   elem('footer .logo').classList.add('is-showing');
+  //   // console.log('shownmf')
+  // }
+  console.log(wScroll, footerOffset)
 
 })
 
@@ -137,35 +168,15 @@ const right = document.getElementById('js-right')
 window.onload = function () {
   checkNav()
 
-  let list = Object.values(document.querySelectorAll('.carousel-item'))
-  let translate, caption, spotlight;
-  let length = list.length
-  let middleTerm = Math.ceil((length-1) / 2)
-  let spotlightIndex = middleTerm
-  // let spotlight = list[spotlightIndex];
-  left.addEventListener('click', _ => {
-    spotlightIndex = (spotlightIndex == 0) ? (list.length - 1) : (spotlightIndex - 1);
-    spotlight = list[spotlightIndex]
-    caption = spotlight.querySelector('figcaption')
-    translate = (middleTerm-spotlightIndex)*100;
-    Object.keys(list).forEach(function(key) {
-      list[key].style.transform = 'translateX(' + translate + '%)';
-    })
-  })
-  right.addEventListener('click',  _ => {
-    spotlightIndex = (spotlightIndex == (list.length - 1)) ? 0 : (spotlightIndex + 1);
-    spotlight = list[spotlightIndex]
-    caption = spotlight.querySelector('figcaption')
-    translate = (middleTerm-spotlightIndex)*100;
-    Object.keys(list).forEach(function(key) {
-      list[key].style.transform = 'translateX(' + translate + '%)';
-    })
-  })
-
   typingAnimation('CODING CLUB', 100, "typing")
   typingAnimation('NISER', 100, "typing-2")
 
 }
+
+// $(document).ready(function () {
+
+// })
+
 
 function typingAnimation(txt, speed, container) {
   var i = 0;

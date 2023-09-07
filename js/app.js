@@ -66,7 +66,7 @@ return figure;
 };
 
 $(function(){
-  $.getJSON('https://gayatri-p.github.io/coding-club/data/members.json',function(data){
+  $.getJSON('data/members.json',function(data){
       console.log('success');
       $.each(data.current_members, function(i, member){
         let figure = getMemberDetails(member)

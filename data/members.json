@@ -3,49 +3,49 @@
         {
             "name": "Subhankar Mishra",
             "desc": "Assistant Professor, School of Computer Sciences, NISER",
-            "image": "images/user.png",
+            "image": "images/authors/smishra.jpg",
             "email": "",
             "github": ""
         },
         {
             "name": "Rahul Vishwakarma",
             "desc": "/* NO COMMENTS */",
-            "image": "images/user.png",
+            "image": "images/authors/rahul.jpg",
             "email": "",
             "github": ""
         },
         {
             "name": "Ayush Singh",
             "desc": "I write all my code in Notepad without IntelliSense.",
-            "image": "images/user.png",
+            "image": "images/authors/ayush.jpg",
             "email": "",
             "github": ""
         },
         {
             "name": "Jyotirmaya Shivottam",
             "desc": "cogito ergo sum?!",
-            "image": "images/user.png",
+            "image": "images/authors/kenobi.jpg",
             "email": "",
             "github": ""
         },
         {
             "name": "K. Sannidhya Shukla",
             "desc": "I code, when I am not being bad at math.",
-            "image": "images/user.png",
+            "image": "images/authors/kss.png",
             "email": "",
             "github": ""
         },
         {
             "name": "Abhishek Anil Deshmukh",
             "desc": "I send emails from my terminal",
-            "image": "images/user.png",
+            "image": "images/authors/42207326.jpg",
             "email": "",
             "github": ""
         },
         {
             "name": "Spandan Anupam",
             "desc": "Gonna give you up (for sure)",
-            "image": "images/user.png",
+            "image": "images/authors/spandan.jpeg",
             "email": "",
             "github": ""
         }

@@ -82,7 +82,7 @@ $(function(){
 });
 
 $(function(){
-  $.getJSON('https://gayatri-p.github.io/coding-club/data/blogs.json',function(data){
+  $.getJSON('data/blogs.json',function(data){
       console.log('success');
       $.each(data.blogs, function(i, blog){
         let blog_item = `<div class="blog">

@@ -1,10 +1,10 @@
 {
     "blogs": [
         {
-            "title": "blog 1",
-            "image": "images/code.jpg",
-            "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet diam vitae odio sagittis vulputate. Duis in diam neque. Nam quam est, dictum et volutpat vitae, fermentum ut ipsum.",
-            "link": "#"
+            "title": "Hello, world.",
+            "image": "images/covers/HelloWorld.png",
+            "abstract": "The Software Development Group at NISER has been operational since the fall of 2018, with the aim of bringing together people from different disciplines who prefer a code first approach to solving problems.",
+            "link": "Pages/HelloWorld.html"
         },
         {
             "title": "blog 2",

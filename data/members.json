@@ -3,79 +3,66 @@
         {
             "name": "Subhankar Mishra",
             "desc": "Assistant Professor, School of Computer Sciences, NISER",
-            "image": "images/authors/smishra.jpg",
+            "image": "images/smishra.jpg",
             "email": "",
             "github": ""
         },
         {
             "name": "Rahul Vishwakarma",
             "desc": "/* NO COMMENTS */",
-            "image": "images/authors/rahul.jpg",
-            "email": "",
-            "github": ""
-        },
-        {
-            "name": "Ayush Singh",
-            "desc": "I write all my code in Notepad without IntelliSense.",
-            "image": "images/authors/ayush.jpg",
+            "image": "images/rahul.jpg",
             "email": "",
             "github": ""
         },
         {
             "name": "Jyotirmaya Shivottam",
             "desc": "cogito ergo sum?!",
-            "image": "images/authors/kenobi.jpg",
+            "image": "images/kenobi.jpg",
             "email": "",
             "github": ""
         },
+        {
+            "name": "Aritra Mukhopadhyay",
+            "desc": "Peithonking",
+            "image": "images/aritra.jpg",
+            "email": "",
+            "github": ""
+        },              
+        {
+            "name": "Shithij",
+            "desc": "Society is doomed",
+            "image": "images/sj.jpg",
+            "email": "",
+            "github": ""
+        }        
+
+    ],
+    "older_members": [
         {
             "name": "K. Sannidhya Shukla",
             "desc": "I code, when I am not being bad at math.",
-            "image": "images/authors/kss.png",
-            "email": "",
-            "github": ""
-        },
-        {
-            "name": "Abhishek Anil Deshmukh",
-            "desc": "I send emails from my terminal",
-            "image": "images/authors/42207326.jpg",
+            "image": "images/kss.png",
             "email": "",
             "github": ""
         },
         {
             "name": "Spandan Anupam",
             "desc": "Gonna give you up (for sure)",
-            "image": "images/authors/spandan.jpeg",
-            "email": "",
-            "github": ""
-        }
-    ],
-    "older_members": [
-        {
-            "name": "John Doe",
-            "desc": "...",
-            "image": "images/user.png",
+            "image": "images/spandan.jpeg",
             "email": "",
             "github": ""
         },
         {
-            "name": "John Doe",
-            "desc": "...",
-            "image": "images/user.png",
+            "name": "Abhishek Anil Deshmukh",
+            "desc": "I send emails from my terminal",
+            "image": "images/42207326.jpg",
             "email": "",
             "github": ""
         },
         {
-            "name": "John Doe",
-            "desc": "...",
-            "image": "images/user.png",
-            "email": "",
-            "github": ""
-        },
-        {
-            "name": "John Doe",
-            "desc": "...",
-            "image": "images/user.png",
+            "name": "Ayush Singh",
+            "desc": "I write all my code in Notepad without IntelliSense.",
+            "image": "images/ayush.jpg",
             "email": "",
             "github": ""
         }

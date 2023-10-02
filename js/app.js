@@ -4,7 +4,7 @@ const elem = selector => {
 
 // loading json
 $(function(){
-  $.getJSON('https://gayatri-p.github.io/coding-club/data/projects.json',function(data){
+  $.getJSON('data/projects.json',function(data){
       console.log('success');
       $.each(data.projects, function(i,project){
         console.log(project.name)
@@ -101,7 +101,7 @@ $(function(){
 });
 
 $(function(){
-  $.getJSON('https://gayatri-p.github.io/coding-club/data/news.json',function(data){
+  $.getJSON('data/news.json',function(data){
       console.log('success');
       $.each(data.news, function(i, news_item){
         let article = `<div class="article">

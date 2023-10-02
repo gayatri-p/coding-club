@@ -34,7 +34,14 @@
             "image": "images/sj.jpg",
             "email": "",
             "github": ""
-        }        
+        },
+        {
+            "name": "Hari",
+            "desc": " Things are bound to happen",
+            "image": "images/hari.jpeg",
+            "email": "",
+            "github": ""
+        }                
 
     ],
     "older_members": [

@@ -4,45 +4,87 @@
             "name": "Subhankar Mishra",
             "desc": "Assistant Professor, School of Computer Sciences, NISER",
             "image": "images/smishra.jpg",
-            "email": "",
+            "email": "smishra@niser.ac.in",
             "github": ""
         },
         {
             "name": "Rahul Vishwakarma",
             "desc": "/* NO COMMENTS */",
             "image": "images/rahul.jpg",
-            "email": "",
-            "github": ""
-        },
-        {
-            "name": "Jyotirmaya Shivottam",
-            "desc": "cogito ergo sum?!",
-            "image": "images/kenobi.jpg",
-            "email": "",
+            "email": "rahul.vishwakarma@niser.ac.in",
             "github": ""
         },
         {
             "name": "Aritra Mukhopadhyay",
             "desc": "Peithonking",
             "image": "images/aritra.jpg",
-            "email": "",
-            "github": ""
-        },              
+            "email": "aritra.mukhopadhyay@niser.ac.in",
+            "github": "https://github.com/PeithonKing"
+        },
+        {
+            "name": "Gayatri",
+            "desc": "Subterranean homesick alien",
+            "image": "images/Gayatri.jpg",
+            "email": "gayatri.p@niser.ac.in",
+            "github": "https://github.com/gayatri-p"
+        },           
         {
             "name": "Shithij",
             "desc": "Society is doomed",
             "image": "images/sj.jpg",
-            "email": "",
-            "github": ""
+            "email": "shithij.t@niser.ac.in",
+            "github": "https://github.com/sugar-syrup"
         },
         {
             "name": "Hari",
             "desc": " Things are bound to happen",
             "image": "images/hari.jpeg",
+            "email": "harisankar.b@niser.ac.in",
+            "github": "https://github.com/Methaphur"
+        },
+        {
+            "name": "Roshan Philip",
+            "desc": ":)",
+            "image": "images/user.jpg",
+            "email": "roshanm.philip@niser.ac.in",
+            "github": "https://github.com/SweepingBishops"
+        },
+        {
+            "name": "Sajag Kumar",
+            "desc": "Null",
+            "image": "images/user.jpg",
+            "email": "sajag.kumar@niser.ac.in",
+            "github": ""
+        },
+        {
+            "name": "Adhil",
+            "desc": "None",
+            "image": "images/user.jpg",
+            "email": "adhilsha.a@niser.ac.in",
+            "github": ""
+        },
+        {
+            "name": "Girija Sankar Ray",
+            "desc": "Empty",
+            "image": "images/user.jpg",
+            "email": "girijasankar.ray@niser.ac.in",
+            "github": ""
+        },
+        {
+            "name": "Sagar",
+            "desc": "://",
+            "image": "images/user.jpg",
             "email": "",
             "github": ""
-        }                
-
+        },
+        {
+            "name": "Abhijit Chakraborty",
+            "desc": "//:",
+            "image": "images/user.jpg",
+            "email": "abhijit.chakraborty@niser.ac.in",
+            "github": ""
+        }
+        
     ],
     "older_members": [
         {
@@ -50,6 +92,13 @@
             "desc": "I code, when I am not being bad at math.",
             "image": "images/kss.png",
             "email": "",
+            "github": ""
+        },
+        {
+            "name": "Jyotirmaya Shivottam",
+            "desc": "cogito ergo sum?!",
+            "image": "images/kenobi.jpg",
+            "email": "jyotirmaya.shivottam@niser.ac.in",
             "github": ""
         },
         {

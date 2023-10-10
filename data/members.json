@@ -8,13 +8,6 @@
             "github": ""
         },
         {
-            "name": "Rahul Vishwakarma",
-            "desc": "/* NO COMMENTS */",
-            "image": "images/rahul.jpg",
-            "email": "rahul.vishwakarma@niser.ac.in",
-            "github": ""
-        },
-        {
             "name": "Aritra Mukhopadhyay",
             "desc": "Peithonking",
             "image": "images/aritra.jpg",
@@ -43,38 +36,45 @@
             "github": "https://github.com/Methaphur"
         },
         {
-            "name": "Roshan Philip",
-            "desc": ":)",
+            "name": "Girija Sankar Ray",
+            "desc": "KEYBOARD NOT FOUND\nPRESS F1 TO CONTINUE",
+            "image": "images/girija.jpg",
+            "email": "girijasankar.ray@niser.ac.in",
+            "github": ""
+        },
+        {
+            "name": "Sagar",
+            "desc": "At the Movies",
+            "image": "images/sagar.jpg",
+            "email": "sagar.barad@niser.ac.in",
+            "github": ""
+        },
+        {
+            "name": "Rahul Vishwakarma",
+            "desc": "/* NO COMMENTS */",
+            "image": "images/rahul.jpg",
+            "email": "rahul.vishwakarma@niser.ac.in",
+            "github": ""
+        },
+        {
+            "name": "Roshan",
+            "desc": "Sweeping Bishops",
             "image": "images/user.jpg",
             "email": "roshanm.philip@niser.ac.in",
             "github": "https://github.com/SweepingBishops"
         },
         {
             "name": "Sajag Kumar",
-            "desc": "Null",
+            "desc": "Scribbling!",
             "image": "images/user.jpg",
             "email": "sajag.kumar@niser.ac.in",
             "github": ""
         },
         {
             "name": "Adhil",
-            "desc": "None",
+            "desc": "Omamori...",
             "image": "images/user.jpg",
             "email": "adhilsha.a@niser.ac.in",
-            "github": ""
-        },
-        {
-            "name": "Girija Sankar Ray",
-            "desc": "Empty",
-            "image": "images/user.jpg",
-            "email": "girijasankar.ray@niser.ac.in",
-            "github": ""
-        },
-        {
-            "name": "Sagar",
-            "desc": "://",
-            "image": "images/user.jpg",
-            "email": "",
             "github": ""
         },
         {

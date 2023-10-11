@@ -4,7 +4,7 @@ const elem = selector => {
 
 // loading json
 $(function(){
-  $.getJSON('https://gayatri-p.github.io/coding-club/data/projects.json',function(data){
+  $.getJSON('data/projects.json',function(data){
       console.log('success');
       $.each(data.projects, function(i,project){
         console.log(project.name)
@@ -66,7 +66,7 @@ return figure;
 };
 
 $(function(){
-  $.getJSON('https://gayatri-p.github.io/coding-club/data/members.json',function(data){
+  $.getJSON('data/members.json',function(data){
       console.log('success');
       $.each(data.current_members, function(i, member){
         let figure = getMemberDetails(member)
@@ -82,7 +82,7 @@ $(function(){
 });
 
 $(function(){
-  $.getJSON('https://gayatri-p.github.io/coding-club/data/blogs.json',function(data){
+  $.getJSON('data/blogs.json',function(data){
       console.log('success');
       $.each(data.blogs, function(i, blog){
         let blog_item = `<div class="blog">
@@ -101,7 +101,7 @@ $(function(){
 });
 
 $(function(){
-  $.getJSON('https://gayatri-p.github.io/coding-club/data/news.json',function(data){
+  $.getJSON('data/news.json',function(data){
       console.log('success');
       $.each(data.news, function(i, news_item){
         let article = `<div class="article">

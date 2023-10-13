@@ -54,7 +54,7 @@
             "desc": "/* NO COMMENTS */",
             "image": "images/rahul.jpg",
             "email": "rahul.vishwakarma@niser.ac.in",
-            "github": ""
+            "github": "https://github.com/rahul3613"
         },
         {
             "name": "Roshan",
@@ -65,8 +65,8 @@
         },
         {
             "name": "Sajag Kumar",
-            "desc": "Scribbling!",
-            "image": "images/user.jpg",
+            "desc": "I code, I philosophize.",
+            "image": "images/sajag.jpg",
             "email": "sajag.kumar@niser.ac.in",
             "github": ""
         },
@@ -92,35 +92,35 @@
             "desc": "I code, when I am not being bad at math.",
             "image": "images/kss.png",
             "email": "",
-            "github": ""
+            "github": "https://github.com/feynhat"
         },
         {
             "name": "Jyotirmaya Shivottam",
             "desc": "cogito ergo sum?!",
             "image": "images/kenobi.jpg",
             "email": "jyotirmaya.shivottam@niser.ac.in",
-            "github": ""
+            "github": "https://github.com/JeS24"
         },
         {
             "name": "Spandan Anupam",
             "desc": "Gonna give you up (for sure)",
             "image": "images/spandan.jpeg",
             "email": "",
-            "github": ""
+            "github": "https://github.com/surelynottrue"
         },
         {
             "name": "Abhishek Anil Deshmukh",
             "desc": "I send emails from my terminal",
             "image": "images/42207326.jpg",
             "email": "",
-            "github": ""
+            "github": "https://github.com/Abhishek-Deshmukh"
         },
         {
             "name": "Ayush Singh",
             "desc": "I write all my code in Notepad without IntelliSense.",
             "image": "images/ayush.jpg",
             "email": "",
-            "github": ""
+            "github": "https://github.com/11DE784A"
         }
     ]
 }
